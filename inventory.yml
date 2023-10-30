@@ -3,5 +3,7 @@ hosts:
   localhost:
    vars:
      ansible_connection: local
-     ansible_python_interpreter: "/home/daryl/.asdf/shims/python"
+     ansible_python_interpreter: /usr/bin/python
+
+
 
