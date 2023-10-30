@@ -4,7 +4,7 @@
   become: true
   tasks:
   - name: install base packages
-    pacman:
+    community.general.pacman:
       name:
         # Main
         - ttf-jetbrains-mono # main font
@@ -45,7 +45,6 @@
         - keychain           # ssh-agent wrapper
         - wget               # downloader
         - bind-tools         # dns tools
-        - openbsd-netcat     # network utility
         - speedtest-cli      #
         # Utils
         - cronie             # Scheduler
