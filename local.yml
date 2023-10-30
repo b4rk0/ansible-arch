@@ -46,7 +46,6 @@
         - keychain           # ssh-agent wrapper
         - wget               # downloader
         - bind-tools         # dns tools
-        - speedtest-cli      #
         # Utils
         - cronie             # Scheduler
         - at                 # Scheduler
