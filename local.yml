@@ -71,8 +71,6 @@
         - zim                # wiki app
         - mailutils          # mail client
       state: present
-  - name: Add asdf plugin act
-    ansible.builtin.shell: asdf plugin add act || true 
   - name: Install asdf act
     ansible.builtin.shell: asdf install act 0.2.52 || true 
   - name: Set asdf global act
